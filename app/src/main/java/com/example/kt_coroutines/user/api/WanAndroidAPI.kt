@@ -9,7 +9,7 @@ import retrofit2.http.POST
 
 // 客户端API 可以访问 服务器的API
 interface WanAndroidAPI {
-    // TODO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 下面是传统方式API
+    // 下面是传统方式API
 
     /** https://www.wanandroid.com/blog/show/2
      * 登录API
