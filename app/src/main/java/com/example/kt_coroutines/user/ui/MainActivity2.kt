@@ -1,22 +1,17 @@
 package com.example.kt_coroutines.user.ui
 
 import android.app.ProgressDialog
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.util.Log
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.example.kt_coroutines.R
 import com.example.kt_coroutines.user.api.APIClient
 import com.example.kt_coroutines.user.api.WanAndroidAPI
-import com.example.kt_coroutines.user.entity.LoginRegisterResponse
-import com.example.kt_coroutines.user.entity.LoginRegisterResponseWrapper
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-
 
 // 使用协程的思维  同步的代码写出异步的效果
 class MainActivity2 : AppCompatActivity() {
@@ -48,6 +43,4 @@ class MainActivity2 : AppCompatActivity() {
             mProgressDialog?.dismiss() // 隐藏加载框
         }
     }
-
-
 }
